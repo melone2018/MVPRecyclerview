@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/nameTv"
+        android:text="This is the Name"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/profileIv"
+        android:layout_below="@+id/nameTv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+</RelativeLayout>
